@@ -3,7 +3,7 @@
 # Cordova Toaster Plugin
 
 This plugin provides a way to use native toasts of android devices.
-<img align="right" src="https://www.dropbox.com/s/tfk8hrkbw086f5x/toaster_plugin_logo.jpg?dl=1" alt="Cordova Toaster Plugin" height="280px">
+<img align="right" style="float: right" src="https://www.dropbox.com/s/tfk8hrkbw086f5x/toaster_plugin_logo.jpg?dl=1" alt="Cordova Toaster Plugin" height="280px">
 
 
 ## Installation
@@ -35,4 +35,3 @@ function onDeviceReady() {
 ## Interface
 
 ![Interface](https://www.dropbox.com/s/sqg5f7s4dnnj5im/toaster_plugin_preview.jpg?dl=1)
-
