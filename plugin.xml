@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-toaster"
+        version="0.0.1">
+    <name>Toaster Plugin</name>
+    <description>Cordova Toaster Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,toaster</keywords>
+    <repo>https://github.com/yaroslav0507/cordova-plugin-toaster.git</repo>
+    <issue>https://github.com/yaroslav0507/cordova-plugin-toaster/issues</issue>
+
+    <js-module src="www/toaster.js" name="notification">
+        <merges target="navigator.notification" />
+        <merges target="navigator" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Toaster" >
+                <param name="android-package" value="Toaster"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/Toaster.java" target-dir="src/" />
+    </platform>
+</plugin>

@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-toaster",
+  "version": "0.0.1",
+  "description": "Cordova Toaster Plugin",
+  "cordova": {
+    "id": "cordova-plugin-toaster",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaroslav0507/cordova-plugin-toaster.git"
+  },
+  "keywords": [
+    "cordova",
+    "toaster",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Yaroslav Zaklinskyi",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/yaroslav0507/cordova-plugin-toaster/issues"
+  },
+  "homepage": "https://github.com/yaroslav0507/cordova-plugin-toaster#readme"
+}
