@@ -35,3 +35,4 @@ function onDeviceReady() {
 ## Interface
 
 ![Interface](https://www.dropbox.com/s/sqg5f7s4dnnj5im/toaster_plugin_preview.jpg?dl=1)
+
