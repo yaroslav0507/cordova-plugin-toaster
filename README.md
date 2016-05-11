@@ -1,7 +1,8 @@
 # Cordova Toaster Plugin
 
+<img align="right" src="https://www.dropbox.com/s/tfk8hrkbw086f5x/toaster_plugin_logo.jpg?dl=1" alt="Cordova Toaster Plugin" height="300px">
 
-This plugin provides a way to do some super computing on device.
+This plugin provides a way to use native toasts of android devices.
 
 This plugin defines methods on `navigator.notification` and `navigator`.
 
@@ -9,12 +10,12 @@ Although in the global scope, they are not available until after the `deviceread
 
     document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-        //...
+       // navigator.showToast('Your toast\'s text here');
     }
 
 ## Methods
 
-- *showToast* - to find sense of life
+- *showToast* - to show toast
 	
 
 ## Installation
