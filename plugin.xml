@@ -6,7 +6,7 @@
     <name>Toaster Plugin</name>
     <description>Cordova Toaster Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,toaster</keywords>
+    <keywords>cordova,toaster, toast, toasts, android, notification, ionic</keywords>
     <repo>https://github.com/yaroslav0507/cordova-plugin-toaster.git</repo>
     <issue>https://github.com/yaroslav0507/cordova-plugin-toaster/issues</issue>
 
